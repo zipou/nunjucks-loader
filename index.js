@@ -18,9 +18,9 @@ var jinjaCompatStr;
 var root;
 
 module.exports = function (source) {
-    if (this.target !== 'web') {
-        throw new Error('[nunjucks-loader] non-web targets are not supported');
-    }
+    // if (this.target !== 'web') {
+    //     throw new Error('[nunjucks-loader] non-web targets are not supported');
+    // }
 
     this.cacheable();
 

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/at0g/nunjucks-loader.git"
+    "url": "git://github.com/zipou/nunjucks-loader.git"
   },
   "keywords": [
     "webpack",
@@ -20,9 +20,9 @@
   "author": "Ben Daley <ben@fanboy.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/at0g/nunjucks-loader/issues"
+    "url": "https://github.com/zipou/nunjucks-loader/issues"
   },
-  "homepage": "https://github.com/at0g/nunjucks-loader",
+  "homepage": "https://github.com/zipou/nunjucks-loader",
   "dependencies": {
     "loader-utils": "^0.2.12",
     "slash": "~1.0.0"
@@ -31,6 +31,10 @@
     "nunjucks": ">= 2.5.0 <= 4.0.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
     "chai": "^2.1.2",
     "mocha": "^2.2.1",
     "mocha-loader": "^0.7.1",

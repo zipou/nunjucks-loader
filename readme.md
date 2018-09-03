@@ -1,5 +1,11 @@
 # Nunjucks loader for webpack
 
+## Forked
+
+Forked from https://github.com/at0g/nunjucks-loader to enable Node Support
+
+## End Forked
+
 - `require` precompiled templates in webpack
 - supports `extends` and `include`
 - resolves template dependencies using `require`
